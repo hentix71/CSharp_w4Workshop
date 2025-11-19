@@ -1,6 +1,6 @@
 ﻿namespace Task5;
 
-class  Program()
+class  Program
 {
     public static void Main(string[] args)
     {
@@ -23,10 +23,10 @@ class  Program()
         try
         {
             Console.Write("Enter a day: ");
-            string? day = Console.ReadLine();
-
-            List<string> weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
-            List<string> weekend = ["Friday", "Saturday"];
+            string? day = (Console.ReadLine()).ToLower();
+            
+            List<string> weekday = ["sunday", "monday", "tuesday", "wednesday", "thursday"];
+            List<string> weekend = ["friday", "saturday"];
 
             string output;
             //switch(day)

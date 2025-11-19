@@ -6,4 +6,4 @@ enum DayType
     Weekend,
 }
 
-record Book(String title, String author, double price);
+record Book(String title, String author, double price); 
